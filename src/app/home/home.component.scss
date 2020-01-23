@@ -1,0 +1,81 @@
+.full-col {
+  height: 300px;
+  width: 85%;
+  margin: 0 auto;
+
+}
+.full-col h3{
+  font: 16px "Roboto";
+  text-transform: uppercase;
+  color: grey;
+}
+.iclass{
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.gridDiv h4{
+  text-decoration-line: none;
+  color: grey;
+}
+.gridDiv a{
+  text-decoration-line: none;
+
+}
+.d2-link:after{
+  content: url('/assets/ng.png');
+  padding-left: 10px;
+}
+.d2-link:visited{
+  color: #7b1fa2;
+}
+.d2-link{
+  text-decoration: none;
+}
+h1{
+  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing: .5px;
+  font: "Ariel";
+}
+.gridDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-top: 60px;
+}
+.gridDiv a{
+  color: blueviolet;
+}
+.gridDiv a:hover{
+  color: black;
+}
+.imgStyle{
+  width: 100%;
+  height: auto;
+
+}
+.sideText > p{
+  margin-top: 220px;
+  color: black;
+  font-weight: bolder;
+  padding-left: 55px;
+}
+.peopleText h1{
+  text-align: center;
+  padding-top: 40px;
+}
+.peopleText p{
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+}
+
+.eachDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.center{
+  text-align: center;
+}
